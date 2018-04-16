@@ -1,0 +1,20 @@
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650 64-bit)  (format=lualatex 2018.4.4)  12 APR 2018 17:49
+ restricted system commands enabled.
+**tangocolors.tex
+
+! Emergency stop.
+<*> tangocolors.tex
+                
+*** (job aborted, file error in nonstop mode)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 5 strings out of 494447
+ 100000,89155 words of node,token memory allocated 236 words of node memory still in use:
+   34 glue_spec nodes
+   avail lists: 2:12,3:1,4:1,5:1
+ 4266 multiletter control sequences out of 65536+200000
+ 14 fonts using 591559 bytes
+ 0i,0n,0p,0b,6s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

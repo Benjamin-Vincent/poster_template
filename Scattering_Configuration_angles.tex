@@ -1,0 +1,64 @@
+%Angle Definitions
+%-----------------
+
+%set the plot display orientation
+%synatax: \tdplotsetdisplay{\theta_d}{\phi_d}
+\tdplotsetmaincoords{60}{110}
+
+%define polar coordinates for some vector
+\pgfmathsetmacro{\rvec}{.8}
+\pgfmathsetmacro{\thetavec}{90}
+\pgfmathsetmacro{\phivec}{10}
+
+\pgfmathsetmacro{\rvecc}{.8}
+\pgfmathsetmacro{\thetavecc}{20}
+\pgfmathsetmacro{\phivecc}{0}
+
+\pgfmathsetmacro{\rveccc}{.8}
+\pgfmathsetmacro{\thetaveccc}{90}
+\pgfmathsetmacro{\phiveccc}{90}
+
+%start tikz picture, and use the tdplot_main_coords style to implement the display 
+%coordinate transformation provided by 3dplot
+\begin{tikzpicture}[scale=5,tdplot_main_coords]
+
+%set up some coordinates 
+%-----------------------
+\coordinate (O) at (0,0,0);
+
+%determine a coordinate (P) using (r,\theta,\phi) coordinates.  This command
+%also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
+%of the point (P).
+%syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\phi}
+\tdplotsetcoord{P}{\rvec}{\thetavec}{\phivec}
+\tdplotsetcoord{Q}{\rvecc}{\thetavecc}{\phivecc}
+\tdplotsetcoord{R}{\rveccc}{\thetaveccc}{\phiveccc}
+
+%draw figure contents
+%--------------------
+
+%draw the main coordinate system axes
+\draw[thick, dotted] (-0,0,0)   -- (1,0,0) node[below]{$y$};
+\draw[thick, dotted] (0,-0.5,0) -- (0,1,0) node[right]{$z$};
+\draw[thick, dotted] (0,0,-0)   -- (0,0,1) node[above]{$x$};
+\draw(O) node {$\bullet$};
+
+%draw a vector from origin to point (P) 
+
+\draw[->, thick, >=stealth] (O) -- (P) node[below]{$\vec{k}_{s}$};
+\draw[->, thick, >=stealth] (O) -- (Q) node[above]{$\vec{E}_{i0}$};
+\draw[->, thick, >=stealth] (O) -- (R)node[above]{$\vec{k}_{i}$};
+\draw[->, thick, >=stealth,color=red] (R) -- (P)node[midway,below]{$\vec{k}$};
+
+%draw the angle \theta, and label it in the yz plane
+%syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
+\tdplotdrawarc{(O)}{0.2}{90}{\phivec}{anchor=north}{$\theta$}
+
+
+%set the rotated coordinate system to be in xy plan
+\tdplotsetthetaplanecoords{0}
+
+%draw theta arc and label, using rotated coordinate system
+\tdplotdrawarc[tdplot_rotated_coords]{(0,0,0)}{0.6}{90}{\thetavecc}{anchor=south west}{$\varphi$}
+
+\end{tikzpicture}

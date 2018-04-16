@@ -1,0 +1,146 @@
+% this style is based on the theme "Dreuw" created by Philippe Dreuw and Thomas Deselaers, only minor changes on the logo and the colour palette were made.
+\ProvidesPackage{beamerthemeSharelatex} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{tangocolors}
+\selectcolormodel{cmyk}
+\mode<presentation>
+\usepackage[poster]{tcolorbox}
+
+
+\tcbuselibrary{skins,xparse}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamercolor{headline}{fg=gris,bg=beige}
+\setbeamercolor{footline}{fg=gris, bg=beige}
+\setbeamerfont{footline}{size=\large,series=\tt}
+\setbeamercolor{separation line}{fg=red,bg=gris}
+\setbeamercolor{title in headline}{fg=gris, bg=beige}
+\setbeamercolor{author in headline}{fg=gris, bg=beige}
+\setbeamercolor{institute in headline}{fg=gris, bg=beige}
+
+
+\setbeamercolor{framesubtitle}{fg=gris, bg=verdatre}
+\setbeamercolor{author in head/foot}{fg=gris, bg=verdatre}
+\setbeamercolor{title in head/foot}{fg=gris, bg=verdatre}
+
+\setbeamercolor{normal text}{fg=beige, bg=gris}  % Panneau principal
+\setbeamercolor{block body}{fg=gris,bg=beige}
+\setbeamercolor{block title}{fg=beige,bg=bleuet}
+\setbeamerfont{block title}{size=\large,series=\bf}
+\setbeamercolor{upper separation line head}{fg=gris,bg=red}
+\setbeamercolor{lower separation line foot}{fg=gris,bg=red}
+
+\setbeamercolor{example body}{fg=gris,bg=gris}
+\setbeamercolor{example text}{fg=gris,bg=gris}
+\setbeamercolor{example title}{bg=gris,fg=bleuet}
+
+\setbeamercolor{structure}{fg=beige}
+
+\setbeamertemplate{itemize items}[triangle]
+\setbeamertemplate{navigation symbols}{}  % no navigation on a poster
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% headline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{headline}{  
+
+\vspace{0.01\paperwidth}
+
+\begin{tcbposter}[
+    poster = {columns=100,rows=2,spacing=0mm, height=0.12\paperwidth , width=\paperwidth},
+    no coverage,
+	boxes = {beamer,arc=10mm,no shadow}
+    ]%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	\posterbox[frame hidden , interior hidden, enhanced jigsaw,top=0mm,left=0mm,bottom=0mm, boxsep=0mm]{column=1,row=1}{ 
+		\hspace*{0.008\paperwidth}	      	
+		\insertlogo  	
+ } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	\posterbox[colframe=beige,colback=beige, height=0.06\paperwidth ]{column=21,row=1,span=60}{ 
+ 		\color{bleuet} 
+	   	\begin{center}      
+			\textbf{\LARGE{\inserttitle}}\\[1ex]
+     	\end{center}
+ } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	\posterbox[frame hidden , interior hidden, enhanced jigsaw,top=0mm,left=0mm, boxsep=0mm]{column=100,row=1}{ 
+		\hspace*{-0.105\paperwidth}	      	      
+	      	      \includegraphics[height=.06\paperwidth]{ICARE.pdf} 
+ } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\posterbox[ colframe=verdatre , colback=verdatre , sharp corners = northeast, sharp corners = northwest, height=0.05\paperwidth ]{column=28,row=2,span=46}{
+		\color{gris}		
+		\small 		
+		\begin{center}     
+        	B.Vincent$^{1}$, S.Tsikata$^{1}$, T.Minea$^{2}$, S.Mazouffre$^{1}$ \\
+        \end{center} 
+        \footnotesize 
+        $^{1}$ Institut de Combustion Aérothermique Réactivité Environnement (ICARE) - CNRS - Orléans, France\\
+        $^{2}$ Laboratoire de physique des Gaz et des plasmas (LPGP) - CNRS - Orsay, France        
+        }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{tcbposter}	
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Footline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{footline}{
+  \leavevmode
+
+\begin{tcbposter}[
+	poster = {columns=100,rows=1,spacing=0mm , height=0.07\paperwidth, width=\paperwidth},
+    no coverage,
+    boxes = {beamer,colframe=verdatre,colback=verdatre,arc=10mm,no shadow , interior titled empty}
+    ]%showframe,
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \posterbox[title=\color{gris} \faDotCircleO \ References \faDotCircleO, sharp corners = northeast, sharp corners = southeast]{column=2,row=1,span=48.75}{
+    	\color{gris}
+    	\tiny
+    	\setlength\parindent{0.01\paperwidth} 
+        \indent{ \makebox[0.02\paperwidth]{[1]-}Sary, G., Garrigues, L., {\&} Boeuf, J. P. (2017). Plasma Sources Science and Technology, 26(5), 055007.}\\
+        \indent{ \makebox[0.02\paperwidth]{[2]-}Huang, M., Warner, K., {\&} al . (2000). Spectrochimica Acta Part B: Atomic Spectroscopy, 55(9), 1397-1410.}\\
+        \indent{ \makebox[0.02\paperwidth]{[3]-}Vincent, B., Tsikata, S., {\&} al. (2018). Plasma Sources Science and Technology, (accepted)}\\
+        \indent{ \makebox[0.02\paperwidth]{[4]-}Klarenaar, B. L. M., Brehmer, F., {\&} al. (2015). Review of Scientific Instruments, 86(4), 046106.}\\
+        \indent{ \makebox[0.02\paperwidth]{[5]-}Rauch, A., {\&} Anders, A. (2013). Vacuum, 89, 53-56.}\\
+        \indent{ \makebox[0.02\paperwidth]{[6]-}Brenning, N., Lundin, D., {\&} al . (2013). Journal of Physics D: Applied Physics, 46(8), 084005.}\\
+ } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	\posterbox[adjusted title=\color{gris} \faDotCircleO \ Contact informations \faDotCircleO , sharp corners = northwest, sharp corners = southwest]{column=51,row=1,span=48.75,xshift=0.0025\paperwidth}{
+        \color{gris} 
+        \small
+        \setlength\parindent{0.01\paperwidth}  
+        \indent{ \makebox[0.01\paperwidth]{\faUser} \insertauthor} \\
+        \indent{ \makebox[0.01\paperwidth]{\faMapMarker} \insertinstitute} \\
+        \indent{ \makebox[0.01\paperwidth]{\faEnvelope}  \texttt{\insertshortauthor}}  
+            
+        }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
+	\posterbox[frame hidden , interior hidden, enhanced jigsaw, colframe=verdatre , colback=verdatre ,top=0mm,left=0mm, boxsep=0mm ]{column=93,row=1,xshift=0.005\paperwidth}{  
+		\vspace*{0.005\paperwidth}
+        \includegraphics[height=0.06\paperwidth]{qr-code} 
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \end{tcbposter}
+ 
+\rule{.01\paperwidth}{.01\paperwidth}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Prevents the logo being printed in the default location
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defbeamertemplate*{sidebar right}{sidebar theme}{
+	\vfill%
+    \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+    \vskip2pt}
+
+\mode<all>
+
+ 
