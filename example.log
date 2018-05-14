@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650 64-bit)  (format=lualatex 2018.4.4)  16 APR 2018 10:31
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650 64-bit)  (format=lualatex 2018.4.4)  14 MAY 2018 12:10
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.804 seconds
+luaotfload | main : initialization completed in 0.819 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 
 ("C:/Users/Benjamin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/beamer/beamer.c
@@ -1967,23 +1967,23 @@ LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <16.93292> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 22.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <12.095> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 22.
-<Scattering_Configuration_angles_bright.pdf, id=19, 234.1797pt x 162.56606pt>
+<Scattering_Configuration_angles_bright.pdf, id=19, 233.22256pt x 145.75076pt>
 File: Scattering_Configuration_angles_bright.pdf Graphic file (type pdf)
 <use Scattering_Configuration_angles_bright.pdf>
 Package luatex.def Info: Scattering_Configuration_angles_bright.pdf  used on inp
-ut line 229.
-(luatex.def)             Requested size: 477.77142pt x 331.69731pt.
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 229.
+ut line 189.
+(luatex.def)             Requested size: 477.77142pt x 298.58192pt.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 189.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <34.83> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 229.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 189.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <24.38089> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 229.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 189.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <17.415> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 229.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 189.
 <THETIS_on_NEXET_bright.pdf, id=20, 403.19739pt x 204.04205pt>
 File: THETIS_on_NEXET_bright.pdf Graphic file (type pdf)
 <use THETIS_on_NEXET_bright.pdf>
-Package luatex.def Info: THETIS_on_NEXET_bright.pdf  used on input line 229.
+Package luatex.def Info: THETIS_on_NEXET_bright.pdf  used on input line 189.
 (luatex.def)             Requested size: 1301.94261pt x 658.97545pt.
 <Cathode_results/Thomson_spectra_fit_1p3mm_from_the_cathode_300mum.pdf, id=21, 4
 33.62pt x 289.08pt>
@@ -1991,7 +1991,7 @@ File: Cathode_results/Thomson_spectra_fit_1p3mm_from_the_cathode_300mum.pdf Grap
 hic file (type pdf)
 <use Cathode_results/Thomson_spectra_fit_1p3mm_from_the_cathode_300mum.pdf>
 Package luatex.def Info: Cathode_results/Thomson_spectra_fit_1p3mm_from_the_cath
-ode_300mum.pdf  used on input line 229.
+ode_300mum.pdf  used on input line 189.
 (luatex.def)             Requested size: 597.22339pt x 398.1986pt.
 <Cathode_results/EEDF_and_lnIntensity_vs_Energy.pdf, id=22, 433.62pt x 289.08pt>
 
@@ -1999,25 +1999,25 @@ File: Cathode_results/EEDF_and_lnIntensity_vs_Energy.pdf Graphic file (type pdf)
 
 <use Cathode_results/EEDF_and_lnIntensity_vs_Energy.pdf>
 Package luatex.def Info: Cathode_results/EEDF_and_lnIntensity_vs_Energy.pdf  use
-d on input line 229.
+d on input line 189.
 (luatex.def)             Requested size: 597.22339pt x 398.1986pt.
 <Cathode_results/Density_Temperature.pdf, id=23, 433.62pt x 289.08pt>
 File: Cathode_results/Density_Temperature.pdf Graphic file (type pdf)
 <use Cathode_results/Density_Temperature.pdf>
 Package luatex.def Info: Cathode_results/Density_Temperature.pdf  used on input 
-line 229.
+line 189.
 (luatex.def)             Requested size: 597.22339pt x 398.1986pt.
-<photos/Cathode_and_thruster.jpg, id=24, 1907.125pt x 838.13126pt>
-File: photos/Cathode_and_thruster.jpg Graphic file (type jpg)
-<use photos/Cathode_and_thruster.jpg>
-Package luatex.def Info: photos/Cathode_and_thruster.jpg  used on input line 229
+<Photos/Cathode_and_thruster.jpg, id=24, 1907.125pt x 838.13126pt>
+File: Photos/Cathode_and_thruster.jpg Graphic file (type jpg)
+<use Photos/Cathode_and_thruster.jpg>
+Package luatex.def Info: Photos/Cathode_and_thruster.jpg  used on input line 189
 .
 (luatex.def)             Requested size: 525.5595pt x 230.96638pt.
 <Magnetron_results/Density_Temperature.pdf, id=25, 433.62pt x 289.08pt>
 File: Magnetron_results/Density_Temperature.pdf Graphic file (type pdf)
 <use Magnetron_results/Density_Temperature.pdf>
 Package luatex.def Info: Magnetron_results/Density_Temperature.pdf  used on inpu
-t line 229.
+t line 189.
 (luatex.def)             Requested size: 597.22339pt x 398.1986pt.
 <Magnetron_results/Density_Temperature_velocity.pdf, id=26, 433.62pt x 433.62pt>
 
@@ -2025,22 +2025,22 @@ File: Magnetron_results/Density_Temperature_velocity.pdf Graphic file (type pdf)
 
 <use Magnetron_results/Density_Temperature_velocity.pdf>
 Package luatex.def Info: Magnetron_results/Density_Temperature_velocity.pdf  use
-d on input line 229.
+d on input line 189.
 (luatex.def)             Requested size: 597.22339pt x 597.29791pt.
-<photos/magnetron_LPGP2.jpeg, id=27, 819.06pt x 359.3425pt>
-File: photos/magnetron_LPGP2.jpeg Graphic file (type jpg)
-<use photos/magnetron_LPGP2.jpeg>
-Package luatex.def Info: photos/magnetron_LPGP2.jpeg  used on input line 229.
+<Photos/magnetron_LPGP2.jpeg, id=27, 819.06pt x 359.3425pt>
+File: Photos/magnetron_LPGP2.jpeg Graphic file (type jpg)
+<use Photos/magnetron_LPGP2.jpeg>
+Package luatex.def Info: Photos/magnetron_LPGP2.jpeg  used on input line 189.
 (luatex.def)             Requested size: 525.5595pt x 230.59251pt.
 
-Overfull \vbox (2708.15182pt too high) detected at line 229
+Overfull \vbox (2708.15182pt too high) detected at line 189
  []
 
 (load luc: C:/Users/Benjamin/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts
 /otl/lmsans8-regular.luc)
 File: logo-cnrs-simple.pdf Graphic file (type pdf)
 <use logo-cnrs-simple.pdf>
-Package luatex.def Info: logo-cnrs-simple.pdf  used on input line 229.
+Package luatex.def Info: logo-cnrs-simple.pdf  used on input line 189.
 (luatex.def)             Requested size: 143.32303pt x 143.32777pt.
 
 Overfull \hbox (153.42143pt too wide) has occurred while \output is active
@@ -2049,7 +2049,7 @@ Overfull \hbox (153.42143pt too wide) has occurred while \output is active
 
 File: ICARE.pdf Graphic file (type pdf)
 <use ICARE.pdf>
-Package luatex.def Info: ICARE.pdf  used on input line 229.
+Package luatex.def Info: ICARE.pdf  used on input line 189.
 (luatex.def)             Requested size: 244.50117pt x 143.32777pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2058,7 +2058,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: qr-code.png Graphic file (type png)
 <use qr-code.png>
-Package luatex.def Info: qr-code.png  used on input line 229.
+Package luatex.def Info: qr-code.png  used on input line 189.
 (luatex.def)             Requested size: 143.33452pt x 143.32777pt.
 
 Overfull \hbox (130.82668pt too wide) has occurred while \output is active
@@ -2070,9 +2070,9 @@ Overfull \hbox (130.82668pt too wide) has occurred while \output is active
 <./logo-cnrs-simple.pdf><./ICARE.pdf><./Scattering_Configuration_angles_bright.p
 df><./THETIS_on_NEXET_bright.pdf><./Cathode_results/Thomson_spectra_fit_1p3mm_fr
 om_the_cathode_300mum.pdf><./Cathode_results/EEDF_and_lnIntensity_vs_Energy.pdf>
-<./Cathode_results/Density_Temperature.pdf><./photos/Cathode_and_thruster.jpg><.
+<./Cathode_results/Density_Temperature.pdf><./Photos/Cathode_and_thruster.jpg><.
 /Magnetron_results/Density_Temperature.pdf><./Magnetron_results/Density_Temperat
-ure_velocity.pdf><./photos/magnetron_LPGP2.jpeg><./qr-code.png>]
+ure_velocity.pdf><./Photos/magnetron_LPGP2.jpeg><./qr-code.png>]
 \tf@nav=\write8
 
 \openout8 = example.nav
@@ -2082,11 +2082,11 @@ ure_velocity.pdf><./photos/magnetron_LPGP2.jpeg><./qr-code.png>]
 \tf@snm=\write10
 
 \openout10 = example.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2096,16 +2096,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43679 strings out of 494447
- 596137,1373583 words of node,token memory allocated
- 313745 words of node memory still in use:
-   8704 hlist, 49 vlist, 31 rule, 423 disc, 63 local_par, 184 math, 9619 glue, 2
-86 kern, 171 penalty, 4653 glyph, 21723 attribute, 62 glue_spec, 21723 attribute
+ 43656 strings out of 494447
+ 596132,1373583 words of node,token memory allocated
+ 313777 words of node memory still in use:
+   8702 hlist, 49 vlist, 31 rule, 423 disc, 61 local_par, 184 math, 9629 glue, 2
+86 kern, 171 penalty, 4653 glyph, 21721 attribute, 62 glue_spec, 21721 attribute
 _list, 3 write, 12854 pdf_literal, 154 pdf_colorstack, 11 pdf_setmatrix, 11 pdf_
 save, 11 pdf_restore nodes
-   avail lists: 1:6,2:8338,3:14289,4:221,5:333,6:72,7:16021,8:36,9:9561,10:16,11
+   avail lists: 1:7,2:8648,3:14379,4:229,5:359,6:90,7:16060,8:60,9:9608,10:16,11
 :426
- 46257 multiletter control sequences out of 65536+200000
+ 46234 multiletter control sequences out of 65536+200000
  131 fonts using 14993847 bytes
  76i,20n,112p,800b,1576s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/benjamin/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
@@ -2122,9 +2122,9 @@ enjamin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
 pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmmib10.pfb><C:/Users/Benjamin/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on example.pdf (1 page, 692788 bytes).
+Output written on example.pdf (1 page, 695685 bytes).
 
-PDF statistics: 512 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 532 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 131072)
  36 words of extra memory for PDF output out of 10000 (max. 100000000)
 
